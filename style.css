@@ -25,6 +25,13 @@ img {
     height: 325px;
     width: 250px;
     margin-left: 15px;
+    float: left;
+}
+
+p {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
 }
 
 h3 {
@@ -53,12 +60,13 @@ h3 {
   }
 
 .bio {
-    word-wrap: normal;
+    display: flex;
+    flex-wrap: wrap;
+    /* word-wrap: normal; */
 }
 
 .look {
     background: lightblue;
     padding: 5px;
 }
-
 
