@@ -19,7 +19,7 @@ footer {
     height: 250px;
     width: 250px;
     z-index: 2;
-    border: #eee 5px;
+    margin-right: 15px;
 }
 
 #Katie {
@@ -64,5 +64,9 @@ h3 {
 .look {
     background: lightblue;
     padding: 20px;
+}
+
+.navlist {
+    flex-direction: row !important;
 }
 
