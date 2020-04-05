@@ -12,6 +12,7 @@ footer {
     color: #eee; 
     padding: 5px;
     font-size: 24px;
+    float: right;
 }
 
 img {
@@ -24,14 +25,14 @@ img {
 #Katie {
     height: 325px;
     width: 250px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     float: left;
 }
 
 p {
-    display: flex;
+    /* display: flex; */
     float: left;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 h3 {
