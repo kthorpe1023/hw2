@@ -15,7 +15,7 @@ footer {
     float: right;
 }
 
-img {
+.portfolioimg {
     height: 250px;
     width: 250px;
     z-index: 2;
@@ -60,11 +60,6 @@ h3 {
     transform: rotate(180deg);
   }
 
-.bio {
-    display: flex;
-    flex-wrap: wrap;
-    /* word-wrap: normal; */
-}
 
 .look {
     background: lightblue;
