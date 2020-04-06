@@ -29,11 +29,6 @@ footer {
     float: left;
 }
 
-p {
-    /* display: flex; */
-    float: left;
-    /* flex-wrap: wrap; */
-}
 
 h3 {
     z-index: 3;
