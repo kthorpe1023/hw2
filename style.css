@@ -68,5 +68,19 @@ h3 {
 
 .navlist {
     flex-direction: row !important;
+    text-align: right;
+}
+
+.content {
+    min-height: 100%;
+}
+
+body, html {
+    height: 95%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 
