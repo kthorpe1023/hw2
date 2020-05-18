@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katie Thorpe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
@@ -12,34 +13,42 @@
 
 <body>
   <div class="content">
-  <div>
-    <nav class="row navbar mb-3 navbar-expand-lg navbar-dark bg-dark">
-      <a class="col-sm-12 col-md-3 navbar-brand" href="./index.html">Katie Thorpe</a>
-      <!-- <div id="navbarNavAltMarkup"> -->
-      <div class="col-sm-12 col-md-9">
-        <div class="row navlist navbar-nav">
-          <a class="col-2 nav-item nav-link active" href="./index.html">About Me<span class="sr-only">(current)</span></a>
-          <a class="col-2 nav-item nav-link" href="./portfolio.html">Portfolio</a>
-          <a class="col-2 nav-item nav-link" href="./contact.html">Contact</a>
-        </div>
+    <nav>
+      <div class="nav-wrapper grey darken-2">
+        <a href="#" class="left brand-logo">K. Thorpe</a>
+        <ul id="nav-mobile" class="right sidenav-on-med-and-down">
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
       </div>
     </nav>
-  </div>
-    <form class="look container col-md-8">
+    <div class="background-img">
+    <form class="look container col-md-8" id="send">
         <h1>Contact</h1>
-        <div class="form-group">
+        <p>Please let me know if there's anyway you think I can improve, any websites that have helped you learn to code, and I look forward to hearing from you!</p>
+        <div class="row">
+        <div class="col 6 form-group">
           <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
         </div>
+        <div class="col 6 form-group right">
+          <label for="exampleFormControlInput1">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+      </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="message" rows="3"></textarea>
         </div>
-        <button type="button" class="btn btn-success">Submit</button>
+        <button type="button" class="send btn btn-success">Submit</button>
       </form>
+      </div>
       </div>
       <footer>
           <p>Copyright</p>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="script.js"></script>
 </body>
 </html>
