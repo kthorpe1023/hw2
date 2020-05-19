@@ -1,6 +1,5 @@
-# hw2
-All pages: matching navbar from Bootstrap with edits to links for formatting on smaller screen as well as matching footer
-Bio page contains image and paragraphs in a row with text falling below the image on smaller screens (link included in paragraphs).
-Portfolio page contains 5 images that fall side by side on a large and medium screen, but drop below one another on a smaller screen. Includes text over images using z-index and position in css.
-Contact page contains form from Bootstrap
-Used html validation via validator on w3 before submitting homework
+# Portfolio
+All pages have matching navbar from Materialize and footer
+Bio page contains image and paragraphs in a row with text falling below the image on smaller screens (link to resume and LinkedIn profile included in paragraphs). Primarily HTML and CSS used for this page
+Portfolio page contains 3 deployed websites with links to site and github repo as well as an image of each site. HTML, CSS, and jQuery used for this page
+Contact page contains form from Bootstrap and Materialize--working on formatting email to send feedback to me. HTML, CSS, adn jQuery sed for this page
