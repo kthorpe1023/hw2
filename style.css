@@ -65,11 +65,10 @@ h1 {
 }
 
 .main-pg-btn {
-    margin: 40px;
+    margin-top: 40px;
     color: #eee;
     height: 60px;
-    float: center;
-    position: relative;
+    width: 200px;
 }
 
 .main-pg-h1 {
@@ -96,11 +95,8 @@ h1 {
 }
 
 .resume-btn {
-    float: right;
+    /* float: right; */
     margin: 50px;
     height: 60px;
-    width: 10em;
+    /* width: 10em; */
 } 
-.col.s12 > .btn {
-    width: 100%;
- }
