@@ -16,7 +16,7 @@ var portfolio = [
     },
     {
         name: "Daily Schedule",
-        link: "https://kthorpe1023.github.io/hw5/",
+        link: "https://kthorpe1023.github.io/day-planner/",
         gitHub: "https://github.com/kthorpe1023/hw5",
         img: "./images/scheduler.PNG",
         description: "A scheduler that displays the current date and will change colors based on the time of day. You can save your plans in this planner. Plans are saved using local storage and jquery was used for functionality"
