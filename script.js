@@ -15,11 +15,11 @@ var portfolio = [
         description: "Search a city and the current weather as well as the four day forecast will appear. Past cities searched will populate under the search bar so you can look them up again. Technology used: CSS, HTML, Jquery, localStorage, OpenWeather API"
     },
     {
-        name: "Daily Schedule",
-        link: "https://kthorpe1023.github.io/day-planner/",
-        gitHub: "https://github.com/kthorpe1023/day-planner",
-        img: "./images/scheduler.PNG",
-        description: "A scheduler that displays the current date and will change colors based on the time of day. You can save your plans in this planner. Plans are saved using local storage and jquery was used for functionality"
+        name: "The Office Employee Search",
+        link: "https://kthorpe1023.github.io/office-employees/",
+        gitHub: "https://github.com/kthorpe1023/office-employees",
+        img: "./images/theOfficeImg.PNG",
+        description: "This front end application was built using React as well as Bootstrap to help with styling. The user is able to search the name of their favorite character from The Office. They can also use the dropdown to manipulate the data."
     },
     {
         name: "Code Connect",
